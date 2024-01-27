@@ -3,89 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Personal Blog</title>
+    <title>Your Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <style>
-        :root {
-            --primary-color: #ff6f61;
-            --secondary-color: #4ecdc4;
-            --background-color: #f7f7f7;
-            --text-color: #333333;
-        }
-
         body {
-            background-color: var(--background-color);
-            color: var(--text-color);
+            font-family: Arial, sans-serif;
+            color: #333;
         }
 
-        a, button {
-            color: var(--primary-color);
+        h2, h3 {
+            color: #0056b3; /* Dark blue color for headings */
         }
 
-        .container-fluid strong {
-            color: var(--secondary-color);
-        }
-
-        nav ul li a:hover, nav ul li a:focus {
-            background-color: var(--primary-color);
-            color: white;
+        .publication, .contact-item {
+            margin-bottom: 15px;
         }
 
         footer {
-            background-color: var(--secondary-color);
-            color: white;
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #f0f0f0;
         }
     </style>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
 </head>
 <body>
     <nav class="container-fluid">
         <ul>
-            <li><strong>My Personal Blog</strong></li>
+            <li><strong>Akshay Joshi</strong></li>
         </ul>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Topics</a></li>
-            <li><a href="#" role="button">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+
     <main class="container">
-        <div class="grid">
-            <section>
-                <hgroup>
-                    <h2>Welcome to My Blog</h2>
-                    <h3>Your daily dose of interesting reads</h3>
-                </hgroup>
-                <p>Welcome to my personal blog where I share insights, stories, and thoughts on a variety of topics. Stay tuned for regular updates!</p>
-                <figure>
-                    <img src="https://source.unsplash.com/random/800x600" alt="Blog Image" />
-                    <figcaption><a href="#" target="_blank">Read More</a></figcaption>
-                </figure>
-                <h3>Latest Posts</h3>
-                <p>Discover my latest blog posts on technology, lifestyle, travel, and more.</p>
-                <h3>About Me</h3>
-                <p>Learn more about my journey, interests, and the experiences that shape my writing.</p>
-            </section>
-        </div>
-    </main>
-    <section aria-label="Subscribe example">
-        <div class="container">
-            <article>
-                <hgroup>
-                    <h2>Stay Updated</h2>
-                    <h3>Subscribe to my newsletter</h3>
-                </hgroup>
-                <form class="grid">
-                    <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required />
-                    <input type="email" id="email" name="email" placeholder="Email Address" aria-label="Email Address" required />
-                    <button type="submit" onclick="event.preventDefault()">Subscribe</button>
-                </form>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Your background, experience, and a brief introduction.</p>
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+            <!-- Repeat this block for each publication -->
+            <article class="publication">
+                <h3>Title of Paper</h3>
+                <p><strong>Abstract:</strong> Brief summary...</p>
+                <p><strong>Published:</strong> Date</p>
+                <a href="link-to-paper" target="_blank">Read Full Paper</a>
             </article>
-        </div>
-    </section>
-    <footer class="container">
-        <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small>
+            <!-- End of publication block -->
+        </section>
+
+        <section id="research">
+            <h2>Research Interests</h2>
+            <p>Information about your research interests, current projects, or topics you find intriguing.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you wish to reach out to me, please contact me at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Akshay Joshi. All rights reserved.</p>
     </footer>
 </body>
 </html>
