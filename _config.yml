@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Tetiana
-middle_name: (Tanya)
-last_name: Parshakova
+first_name: Akshay
+middle_name: blank
+last_name: Joshi
 email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
@@ -15,7 +15,7 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌚  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://parshakova.github.io # the base hostname & protocol for your site
+url: https://akshay7194.github.io # the base hostname & protocol for your site
 baseurl: 
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -64,13 +64,13 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: parshakova # your GitHub user name
+github_username: akshay7194 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: lCr4ep8AAAAJ # your Google Scholar ID
+scholar_userid:  # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -100,7 +100,7 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  UA-127797746-1 # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
